@@ -18,8 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UITextField * test = [[UITextField alloc]init];
-//    test.rac_textSignal = [RACSignal
-    test.text rac_valuesForKeyPath:<#(NSString *)#> observer:<#(NSObject *__weak)#>
+    test.text = @"123";
+    [test.rac_textSignal subscribeNext:^(id x) {
+        NSLog(@"文字发生改变了：%@",x);
+    }];
+    
 }
 
 @end
