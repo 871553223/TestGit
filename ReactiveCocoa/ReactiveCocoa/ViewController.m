@@ -22,9 +22,9 @@
     [test.rac_textSignal subscribeNext:^(id x) {
         NSLog(@"文字发生改变了：%@",x);
         NSLog(@"45678");
-        NSLog(@"dfs ");
-        NSLog(@"fds");
-        NSLog(@"fds");
+//        NSLog(@"dfs ");
+//        NSLog(@"fds");
+//        NSLog(@"fds");
         NSLog(@"fds");
     }];
     
