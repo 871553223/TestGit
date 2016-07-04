@@ -1,0 +1,5 @@
+
+target “ReactiveCocoa” do
+use_frameworks!
+pod 'ReactiveCocoa','~>4.1.0’
+end
