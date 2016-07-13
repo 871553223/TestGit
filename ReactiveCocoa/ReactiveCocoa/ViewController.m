@@ -34,6 +34,7 @@
         NSLog(@"end");
         NSLog(@"caojinghe");
 #warning - CJH
+        NSLog(@"%@",@"text");
     }];
     
 }
