@@ -36,6 +36,7 @@
 #warning - CJH
         NSLog(@"%@",@"text");
         NSLog(@"teewe");
+        NSLog(@"teewe");
     }];
     
 }
